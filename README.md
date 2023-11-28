@@ -19,11 +19,11 @@ Este guia aborda as etapas para configurar e validar um add-on do Gmail que util
 
 ### 4. Substituir o Conteúdo do Arquivo `appsscript.json`
 
-- Substitua o conteúdo do arquivo `appsscript.json` pelo [conteúdo do repositório](LINK_DO_REPO_APPSSCRIPT_JSON).
+- Substitua o conteúdo do arquivo `appsscript.json` pelo [conteúdo do repositório](https://github.com/alexandercamps/gmail-add-on-ai/blob/main/src/appsscript.json).
 
 ### 5. Substituir o Conteúdo do Arquivo `Code.gs`
 
-- Substitua o conteúdo do arquivo `Code.gs` pelo [conteúdo do repositório](LINK_DO_REPO_CODE_GS).
+- Substitua o conteúdo do arquivo `Code.gs` pelo [conteúdo do repositório](https://github.com/alexandercamps/gmail-add-on-ai/blob/main/src/Code.gs).
 
 ### 6. Criar um Deployment
 
@@ -46,7 +46,7 @@ Este guia aborda as etapas para configurar e validar um add-on do Gmail que util
 ## Links Úteis
 
 - [Documentação Oficial do Google Apps Script](https://developers.google.com/apps-script/overview)
-- [Documentação da API da OpenAI](https://beta.openai.com/docs/)
+- [Documentação da API da OpenAI](https://platform.openai.com/docs/api-reference/introduction)
 
 ---
 
