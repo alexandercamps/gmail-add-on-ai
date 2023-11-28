@@ -1,0 +1,43 @@
+{
+    "timeZone": "America/Sao_Paulo",
+    "dependencies": {
+      "enabledAdvancedServices": [
+        {
+          "userSymbol": "Gmail",
+          "version": "v1",
+          "serviceId": "gmail"
+        }
+      ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.addons.execute",
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/script.locale",
+      "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "runtimeVersion": "V8",
+    "addOns": {
+      "common": {
+        "name": "MailToTasks",
+        "logoUrl": "https://developers.google.com/workspace/add-ons/images/support-icon.png",
+        "layoutProperties": {
+          "primaryColor": "#2766B1",
+          "secondaryColor": "#F6F6F6"
+        },
+        "useLocaleFromApp": true
+      },
+      "gmail": {
+        "contextualTriggers": [
+          {
+            "unconditional": {},
+            "onTriggerFunction": "buildAddOn"
+          }
+        ],
+        "openLinkUrlPrefixes": [
+          "https://localhost:8081",
+          "https://localhost:5000"
+        ]
+      }
+    }
+  }
